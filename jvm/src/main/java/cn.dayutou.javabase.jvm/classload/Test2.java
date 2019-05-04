@@ -1,4 +1,4 @@
-package cn.dayutou.javabase.jvm.load;
+package cn.dayutou.javabase.jvm.classload;
 
 /**
  *测试常量
@@ -9,11 +9,11 @@ public class Test2 {
          * 反编译看下指令
          * 执行：javap -c Test2.class
          *
-         * 注意ldc这条指令，它表示，从常量池取出常量（String hello  MyParent2），并压栈
+         * 注意ldc这条指令（助记符），它表示，从常量池取出常量（String hello  MyParent2），并压栈
          *++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
          * Compiled from "Test2.java"
-         * public class cn.dayutou.javabase.jvm.load.Test2 {
-         *   public cn.dayutou.javabase.jvm.load.Test2();
+         * public class cn.dayutou.javabase.jvm.classload.Test2 {
+         *   public cn.dayutou.javabase.jvm.classload.Test2();
          *     Code:
          *        0: aload_0
          *        1: invokespecial #1                  // Method java/lang/Object."<init>":()V

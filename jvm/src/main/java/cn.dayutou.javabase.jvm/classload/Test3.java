@@ -1,4 +1,4 @@
-package cn.dayutou.javabase.jvm.load;
+package cn.dayutou.javabase.jvm.classload;
 
 public class Test3 {
     public static void main(String[] args) {
